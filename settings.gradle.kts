@@ -5,11 +5,12 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-dependencyResolution {
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         google()
         mavenCentral()
     }
 }
-rootProject.name = "ToDoList_Android"
+rootProject.name = "WeatherApp_Android"
 include(":app")
